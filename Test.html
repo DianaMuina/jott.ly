@@ -56,28 +56,47 @@
   height: 200px;
   background-size: cover;
   margin: 0 auto;
-  position: relative;
 }
 p {
   padding: 10px;
   text-align: justify;
   line-height: 28px;
-  position: absolute;
+
   bottom: 0;
 }
-.who {
+/*.who {
   background: url("some typing.jpg");
+}*/
+         
+.who {
+  background-color:#ffffff;
+  width: 100%;
+  height: 250px;
+  color: #474747;
 }
 .benefits {
-  background-color:#474747;
+  background-color:#e1e1e1;
+  width: 100%;
+  height: 300px;
+  color: #474747;
 }
 .features {
-  color:black;
+  color:#474747
   text-align: left;
   height: 500px;
 }
+.left {
+  width: 45%;
+  left-margin: 5%;
+  float: left;
+}
+.center {
+  float: center;
+}
+
 </style>
   <body>
+            <!--I need help on how to add the Jott.ly logo file to the upper left corner -->
             <!-- This is where our content starts -->
   <header>
     <div id="rectangle"></div>
@@ -86,22 +105,38 @@ p {
       <li><a href="#">About</a></li>
       <li><a href="#">Search</a></li>
     </ul>
+            <!--I was wondering if I need to add the faded look to the photo prior to adding it so that I can make my font black instead of white? -->
+            <!--Can I use the font I added to photoshop in the code? -->
+            <!--I also wanted to ask how to create a button for my register button in upper right hand corner? -->
+
     <h1>Unlock Your Collaboration Platform</h1>
     <input type="email" placeholder="Your email"> 
     <input type="submit">
   </header>
+             <!--I would like to center the wording in the who section to be in the middle of the white space and also add the image from my mockup to float to the right of it I don't want to keep adding formatting in the wrong places though because I know you mentioned I had the set up at top sort of off -->
   <div class="who">
-    <p>Who is Using Jott.ly? <br /><small>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</small></p>
+    <div class="left">
+    <p>Who is Using Jott.ly?</p>
+    <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
+    </div>
   </div>
+          <!--Here I was trying to figure out how to center the title of this section and add three seperate sections of floating text. Not if adding a div class named center worked or was the right idea -->
+
   <div class="benefits">
-    <p>Benefits of Using Jott.ly <br /><small>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</small></p>
+    <div class="center">
+    <p>Benefits of Using Jott.ly </p>
+      <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
   </div>
+          <!--I can't get the header for this section to center or the content to move down to the white section for it. I did change my paragraph tags in the three div sections so maybe that's related to it. -->
   <div class="features">
-    <p>Features of Jott.ly's Platform <br /><small>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.Small businesses may also be interested in purchasing a multi-seat license through
-    Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</small></p>
+    <p>Features of Jott.ly's Platform</p>
+    <p>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.</p>
+    <p>Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.</p>
+    <p>Small businesses may also be interested in purchasing a multi-seat license through Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</p>
     </div>
 </body>
   <footer>
+        <!--What's the best way to split the copyright to the other side of the footer nav bar? Well, and actually in my mock-up the copyright is the right and the others are to the left. I think once I know how to polish the button and call-out on the top that I can apply the same to the bottom. -->
   <ul>
      <li>Copyright</li>
      <li>Home</li>
