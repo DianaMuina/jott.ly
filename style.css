@@ -1,3 +1,119 @@
-* {
-  background-color: green:;
+  header {
+      text-align: center;
+      background: url("desk photo.jpg");
+      color: black;
+      height: 400px;
+  }
+
+  .fade {
+  	background-color: rgba(255,255,255,.8);
+  	height: 400px;
+  }
+
+  .signup {
+  	margin: 30px 20px 0 0;
+  	padding: 15px;
+  	float: right;
+  	display: inline;
+  }
+
+  body{
+    font-family: helvetica;
+    max-width: 100%;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+   input {
+      border: 1px solid #ffffff
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: #474747;
+      color: white;
+    }
+  h1 {
+    font-size: 35px;
+    color: white;
+  }
+  ul {
+    padding: 10px;
+    text-align: right;
+    background: #474747;
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  #rectangle{
+    height: 100px;
+    width: 100%;
+    background:#D78D56;
+    float: left;
+  }
+
+  .logo {
+  	width: 200px;
+  	height: 70px;
+	/* background-color: green; */  	
+	background-image: url("http://www.dalandcorp.com/Pizza%20Hut%20Roof%20400x300.gif");
+  	background-position: 0 -40px;
+  	margin: 15px;
+  }
+
+  footer{
+    display: inline;
+    width: 100%;
+    color: white;
+    background: #474747;
+  }
+  div {
+/*  height: 200px;
+*/  background-size: cover;
+}
+
+.pull-left {
+	float: left;
+}
+
+p {
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+
+  bottom: 0;
+}
+/*.who {
+  background: url("some typing.jpg");
+}*/
+         
+.who {
+  background-color:#ffffff;
+  width: 100%;
+/*  height: 250px;
+*/  color: #474747;
+}
+.benefits {
+  background-color:#e1e1e1;
+  width: 100%;
+/*  height: 300px;
+*/  color: #474747;
+}
+
+.features {
+  color:#474747
+  text-align: left;
+/*  height: 500px;
+*/}
+
+.left {
+  width: 45%;
+  left-margin: 5%;
+  float: left;
+}
+
+.center {
+  float: center;
 }
