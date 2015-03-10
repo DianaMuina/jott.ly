@@ -10,6 +10,13 @@
   	height: 400px;
   }
 
+  #rectangle {
+    height: 100px;
+    width: 100%;
+    background: #D78D56;
+    float: left;
+  }
+
   .signup {
   	margin: 30px 20px 0 0;
   	padding: 15px;
@@ -47,20 +54,16 @@
     display: inline;
     padding: 0px 10px 0px 10px;
   }
-  #rectangle{
-    height: 100px;
-    width: 100%;
-    background:#D78D56;
-    float: left;
-  }
 
   .logo {
   	width: 200px;
   	height: 70px;
 	/* background-color: green; */  	
-	background-image: url("http://www.dalandcorp.com/Pizza%20Hut%20Roof%20400x300.gif");
-  	background-position: 0 -40px;
-  	margin: 15px;
+	background-image: url(img/Logo_test2.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+/*  	background-position: 0 -40px;
+*/  	margin: 15px;
   }
 
   footer{
@@ -85,16 +88,15 @@ p {
 
   bottom: 0;
 }
-/*.who {
-  background: url("some typing.jpg");
-}*/
-         
+
 .who {
-  background-color:#ffffff;
-  width: 100%;
-/*  height: 250px;
-*/  color: #474747;
+	height: 500px;	
+	background-color:#ffffff;
+	width: 100%;
+	color: #474747;
+	padding: 100px 0;
 }
+
 .benefits {
   background-color:#e1e1e1;
   width: 100%;
@@ -110,8 +112,16 @@ p {
 
 .left {
   width: 45%;
-  left-margin: 5%;
+  margin-left: 50px;
   float: left;
+}
+
+.right {
+	width: 45%;
+ 	margin-right: 5%;
+ 	float: right;
+ 	height: 200px;
+ 	background-color: green;
 }
 
 .center {
