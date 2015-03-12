@@ -1,17 +1,19 @@
   header {
       text-align: center;
       background: url("desk photo.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
       color: black;
-      height: 400px;
+      height: 500px;
   }
 
   .fade {
-  	background-color: rgba(255,255,255,.8);
-  	height: 400px;
+  	background-color: rgba(255,255,255,.15);
+  	height: 500px;
   }
 
   #rectangle {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background: #D78D56;
     float: left;
@@ -22,6 +24,9 @@
   	padding: 15px;
   	float: right;
   	display: inline;
+    background:#474747;
+    color: white;
+    font-family: helvetica;
   }
 
   body{
@@ -32,27 +37,34 @@
   a {
     color: white;
   }
-   input {
+   input [type="email"] {
       border: 1px solid #ffffff
-      padding: 10px;
-      font-size: 18px;
+      padding: 10px 10px 10px 10px;
+      font-size: 22px;
     }
+
     input[type="submit"] {
       background: #474747;
       color: white;
     }
+
   h1 {
     font-size: 35px;
-    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    padding-top:40px;
+    padding-bottom: 10px
   }
   ul {
-    padding: 10px;
+    padding:15px;
+    float: center;
     text-align: right;
     background: #474747;
   }
   li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
   }
 
   .logo {
@@ -73,8 +85,7 @@
     background: #474747;
   }
   div {
-/*  height: 200px;
-*/  background-size: cover;
+background-size: cover;
 }
 
 .pull-left {
@@ -83,32 +94,72 @@
 
 p {
   padding: 10px;
-  text-align: justify;
   line-height: 28px;
-
-  bottom: 0;
 }
 
 .who {
-	height: 500px;	
+	height: 400px;	
 	background-color:#ffffff;
 	width: 100%;
 	color: #474747;
-	padding: 100px 0;
+  display: inline-block;
+	padding: 50px 0;
 }
 
 .benefits {
+  height: 400px;
   background-color:#e1e1e1;
   width: 100%;
-/*  height: 300px;
-*/  color: #474747;
+  color:#474747;
+  padding: 150px 25px 50px 25px;
+}
+
+.benefitsheader {
+  background-color: #e1e1e1;
+  display: center;
+}
+
+.circleone {
+  width: 33%;
+  background-color: #e1e1e1;
+  display: inline-block;
+  float: left;
+ 
+}
+
+.circleonegif {
+  background-image: url("img/circle_one.gif");
+  width:230px;
+  height:85px;
+}
+
+.circletwo {
+  width: 33%;
+  background-color: #e1e1e1;
+  display: inline-block;
+  float: center; 
+
+}
+
+.circlethree {
+  width: 33%;
+  background-color: #e1e1e1;
+  display: inline-block;
+  float: right;
 }
 
 .features {
+  height: 350px;
+  text-align: center;
+  background-color: #ffffff;
   color:#474747
-  text-align: left;
-/*  height: 500px;
-*/}
+}
+
+.specifics {
+  padding: 10px;
+  color:#474747
+
+}
 
 .left {
   width: 45%;
@@ -120,10 +171,14 @@ p {
 	width: 45%;
  	margin-right: 5%;
  	float: right;
- 	height: 200px;
- 	background-color: green;
+ 	height: 303px;
+ 	background-color: white;
+  background-image: url(img/Who_Section_Image_copy.png);
+  border:2px solid #000000;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.center {
-  float: center;
+
+  color: #474747;
 }

@@ -1,27 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <title>Jott.ly</title>
-  </head>
-  <style>
-  ul {
-    padding: 10px;
-    background: #474747;
-  }
-  li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-  }
-  </style>
-  <body>
-     <div>
-            <!-- This is where our content starts -->
+    <title>Jott.ly</title>
+    <!-- as we discussed in our last call, you need the eric meyer reset to control the way the browser renders your page -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- first adjustment, putting the css in its own file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- this is also how you will call skeleton into your project -->
 
-    <h1></h1>
-  </body>
-  <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Search</a></li>
+  </head>
+  <body>
+    <header>
+      <!--I tried making changes to the header image in the CSS but couldn't successfully get it to span the whole width of the page and not tile. I got it to not tile, but then it centered in the middle of the page and left white space on both sides.-->
+       <div class="fade">
+        <div id="rectangle">
+          <button class="signup" href="#">Register</button>
+          <div class="logo">
+          </div>
+        </div>
+        <ul>
+          <!--I tried to center the nav bar terms with the center of the gray bar but it didn't seem to turn out the way it should with adding padding to the CSS.-->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Search</a></li>
+        </ul>
+                <!-- I wanted to see if we can discuss this question more for explanation.Can I use the font I added to photoshop in the code? -->
+          <!-- This depends on whether the font is available through typekit or not. -->
+          <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
+        <h1>Unlock Your Collaboration Platform</h1>
+        <!--I tried adding padding around the white input box but it seemed to only make both itself and the box next to it smaller. I wanted to add space between the two, not shrink them both.-->
+        <input type="email" placeholder="Your email"> 
+        <input type="submit">
+      </div>
+    </header>
+      
+      <!--I know you mentioned that I would likely need to wrap these divs within their own div or a section div. Can you clarify what I need to do the "left" class that I haven't added to center the type within the white space. I tried without success.-->
+    
+    <div class="who">
+      <div class="left">
+        <p>Who is Using Jott.ly?</p>
+        <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
+      </div>
+      <div class="right">
+      </div>
+    </div>
+    <!--In the section below, I got the three sections of type to show up the way I visually wanted but when I try and apply the same concepts with the image I added for example to the img file, for the first region of the three, it isn't working. I could still use more breakdown on how to do this.-->
+    <div class="benefits">
+      <div class="benefitsheader">
+        <!--I am having trouble getting what I apply to the "benefitsheader" div to show up so ie words for it to be centered/larger.-->
+        <p>Benefits to Jott.ly</p>
+      </div>
+      <div class="circleone">
+        <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
+      </div>
+      <div class"circleonegif">
+      </div>
+      <div class="circletwo">
+        <p>The on-demand marketplace benefits both sides as writers and copy editors are able to output not just more work, but higher quality work with their time.</p>
+      </div>
+      <div class="circlethree">
+        <p>Copy editors benefit from the Jott.ly marketplace, as they are able to create more business opportunities for themselves while operating on a freelance level.
+        </p>
+      </div>
+    </div>
+      <div class="features">
+        <div class="specifics">
+        <p>Features of Jott.ly's Platform</p>
+        <p>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.</p>
+        <p>Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.</p>
+        <p>Small businesses may also be interested in purchasing a multi-seat license through Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</p>
+      </div>
+    </div>
+  <footer>
+  
+    <ul>
+       <li class="pull-left">Copyright</li>
+       <li>Home</li>
+       <li>About</li>
+       <li>Contact</li>
     </ul>
+  </footer>
+
+</body>
+
 </html>
