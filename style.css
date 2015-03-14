@@ -1,10 +1,20 @@
-  header {
-      text-align: center;
+/* This gets rid of the outline that forms 
+around elements when they are clicked on */
+
+*:focus {outline: none;}
+
+header {
       background: url("desk photo.jpg");
       background-repeat: no-repeat;
-      width: 100%;
+
+      /* We needed to add the following attributes 
+      to help the image show up correctly */
+      background-size: cover;
+      background-position: 0 -100px;
       color: black;
       height: 500px;
+      text-align: center;
+      width: 100%;
   }
 
   .fade {
@@ -37,16 +47,32 @@
   a {
     color: white;
   }
-   input [type="email"] {
-      border: 1px solid #ffffff
-      padding: 10px 10px 10px 10px;
-      font-size: 22px;
-    }
 
-    input[type="submit"] {
-      background: #474747;
-      color: white;
-    }
+/* This is the CSS cleanup 
+for the former input styles */
+
+  .contact_form input {
+    width: 50%;
+    padding:10px;
+  }
+
+  .contact_form button {
+    background-color: #474747;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 10%;
+  }
+
+  .contact_form button:hover {
+    background-color: #333333;
+  }
 
   h1 {
     font-size: 35px;
@@ -56,15 +82,18 @@
     padding-top:40px;
     padding-bottom: 10px
   }
+
+  /* Reformated the ul/li construction 
+  so that margin is used to set the height of the navbar */
+
   ul {
-    padding:15px;
-    float: center;
+    background-color: #474747;
     text-align: right;
-    background: #474747;
+    padding-right:5px;  
   }
   li {
     display: inline-block;
-    padding: 10px 10px 10px 10px;
+    margin: 20px;
   }
 
   .logo {

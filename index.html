@@ -12,6 +12,8 @@
   <body>
     <header>
       <!--I tried making changes to the header image in the CSS but couldn't successfully get it to span the whole width of the page and not tile. I got it to not tile, but then it centered in the middle of the page and left white space on both sides.-->
+
+      <!-- You needed to add a background-size and position attribute to your CSS here -->
        <div class="fade">
         <div id="rectangle">
           <button class="signup" href="#">Register</button>
@@ -19,31 +21,55 @@
           </div>
         </div>
         <ul>
+
           <!--I tried to center the nav bar terms with the center of the gray bar but it didn't seem to turn out the way it should with adding padding to the CSS.-->
+
+          <!-- this was being messed up by having padding on both your ul and your li. this is where a better understanding of the box model will help you.
+          I would suggest the Shay Howe chapter on positioning items.
+          I sent that resource over in a previous email. -->
+
+
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Search</a></li>
         </ul>
-                <!-- I wanted to see if we can discuss this question more for explanation.Can I use the font I added to photoshop in the code? -->
+          
+          <!-- I wanted to see if we can discuss this question more for explanation.Can I use the font I added to photoshop in the code? -->
           <!-- This depends on whether the font is available through typekit or not. -->
           <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
+
         <h1>Unlock Your Collaboration Platform</h1>
+
         <!--I tried adding padding around the white input box but it seemed to only make both itself and the box next to it smaller. I wanted to add space between the two, not shrink them both.-->
-        <input type="email" placeholder="Your email"> 
-        <input type="submit">
+
+        <!-- Added the items inside of a form  -->
+        <!-- to make it easier to style the items inside -->
+
+        <!-- Also changed the submit input from an input to a proper button, additionally I added a number of styles to the CSS files to handle the styling of these elements -->
+
+        <form class="contact_form" action="" method="post" name="contact_form">
+          <input type="email" placeholder="Your email"> 
+          <button class="submit" type="submit">Submit</button>
+        </form>
+
       </div>
     </header>
       
       <!--I know you mentioned that I would likely need to wrap these divs within their own div or a section div. Can you clarify what I need to do the "left" class that I haven't added to center the type within the white space. I tried without success.-->
     
-    <div class="who">
+      <!-- to center the type within .left, 
+      you would write css to target the p tag. 
+      so .left > p {text-align: center};
+      should take care of this -->
+
+    <section class="who">
       <div class="left">
-        <p>Who is Using Jott.ly?</p>
+        <h3>Who is Using Jott.ly?</h3>
         <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
       </div>
       <div class="right">
       </div>
-    </div>
+    </section>
     <!--In the section below, I got the three sections of type to show up the way I visually wanted but when I try and apply the same concepts with the image I added for example to the img file, for the first region of the three, it isn't working. I could still use more breakdown on how to do this.-->
     <div class="benefits">
       <div class="benefitsheader">
