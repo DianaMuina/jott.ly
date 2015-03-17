@@ -136,45 +136,50 @@ p {
 }
 
 .benefits {
-  height: 400px;
   background-color:#e1e1e1;
   width: 100%;
-  color:#474747;
-  padding: 150px 25px 50px 25px;
-}
-
-.benefitsheader {
-  background-color: #e1e1e1;
-  display: center;
-}
-
-.circleone {
-  width: 33%;
-  background-color: #e1e1e1;
-  display: inline-block;
   float: left;
- 
+  color:#474747;
+}
+
+.eight {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.benefits h2 {
+  color: #000;
+  font-size: 2em;
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.circleimage {
+  background-color: green;
+  border-radius: 100px;
+  height: 160px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.imgtwo {
+  background-image: url('http://www.socialsciencespace.com/wp-content/uploads/Open-Book.jpg');
+  background-position: 30px -100px;
+  background-repeat: no-repeat;
+}
+
+.thirds {
+  background-color: #e1e1e1;
+  float: left;
+  margin: 20px 1% 40px 1%;
+  width: 31%;
 }
 
 .circleonegif {
   background-image: url("img/circle_one.gif");
   width:230px;
-  height:85px;
-}
-
-.circletwo {
-  width: 33%;
-  background-color: #e1e1e1;
-  display: inline-block;
-  float: center; 
-
-}
-
-.circlethree {
-  width: 33%;
-  background-color: #e1e1e1;
-  display: inline-block;
-  float: right;
+  height:180px;
 }
 
 .features {
