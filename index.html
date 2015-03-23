@@ -11,9 +11,6 @@
   </head>
   <body>
     <header>
-      <!--I tried making changes to the header image in the CSS but couldn't successfully get it to span the whole width of the page and not tile. I got it to not tile, but then it centered in the middle of the page and left white space on both sides.-->
-
-      <!-- You needed to add a background-size and position attribute to your CSS here -->
        <div class="fade">
         <div id="rectangle">
           <button class="signup" href="#">Register</button>
@@ -21,12 +18,6 @@
           </div>
         </div>
         <ul>
-
-          <!--I tried to center the nav bar terms with the center of the gray bar but it didn't seem to turn out the way it should with adding padding to the CSS.-->
-
-          <!-- this was being messed up by having padding on both your ul and your li. this is where a better understanding of the box model will help you.
-          I would suggest the Shay Howe chapter on positioning items.
-          I sent that resource over in a previous email. -->
 
 
           <li><a href="#">Home</a></li>
@@ -39,13 +30,6 @@
           <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
 
         <h1>Unlock Your Collaboration Platform</h1>
-
-        <!--I tried adding padding around the white input box but it seemed to only make both itself and the box next to it smaller. I wanted to add space between the two, not shrink them both.-->
-
-        <!-- Added the items inside of a form  -->
-        <!-- to make it easier to style the items inside -->
-
-        <!-- Also changed the submit input from an input to a proper button, additionally I added a number of styles to the CSS files to handle the styling of these elements -->
 
         <form class="contact_form" action="" method="post" name="contact_form">
           <input type="email" placeholder="Your email"> 
@@ -70,12 +54,12 @@
       <div class="right">
       </div>
     </section>
-    <!--In the section below, I got the three sections of type to show up the way I visually wanted but when I try and apply the same concepts with the image I added for example to the img file, for the first region of the three, it isn't working. I could still use more breakdown on how to do this.-->
     <div class="benefits">
       <h2>Benefits to Jott.ly</h2>
+      <!--On our next call, can we flush through using the x and y values to position this pictures in more detail?-->
       <div class="eight">
         <div class="thirds">
-          <div class="circleonegif"></div>
+          <div class="circleimage imgone"></div>
           <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
         </div>
         <div class="thirds">
@@ -90,12 +74,11 @@
       </div>
     </div>
       <div class="features">
-        <div class="specifics">
-        <p>Features of Jott.ly's Platform</p>
+        <!--Why isn't the padding I am adding to the top of h4 applying correctly to lower this on the page>-->
+        <h4>Features of Jott.ly's Platform</h4>
         <p>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.</p>
         <p>Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.</p>
         <p>Small businesses may also be interested in purchasing a multi-seat license through Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</p>
-      </div>
     </div>
   <footer>
   
