@@ -3,9 +3,11 @@
   <head>
     <title>Jott.ly</title>
     <!-- as we discussed in our last call, you need the eric meyer reset to control the way the browser renders your page -->
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <!-- first adjustment, putting the css in its own file -->
-    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- this is also how you will call skeleton into your project -->
 
   </head>
@@ -13,7 +15,10 @@
     <header>
        <div class="fade">
         <div id="rectangle">
-          <button class="signup" href="#">Register</button>
+
+<!--                 <input class="button-primary" type="submit" value="Submit">
+ -->
+          <button class="button signup" href="#">Register</button>
           <div class="logo">
           </div>
         </div>
@@ -46,6 +51,38 @@
       so .left > p {text-align: center};
       should take care of this -->
 
+<div class="container">
+
+  <!-- columns should be the immediate child of a .row -->
+  <div class="row">
+    <div class="eight offset-by-two column">
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Admiration</option>
+              <option value="Option 3">Can I get your number?</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
     <section class="who">
       <div class="left">
         <h3>Who is Using Jott.ly?</h3>
@@ -71,14 +108,21 @@
           <p>Copy editors benefit from the Jott.ly marketplace, as they are able to create more business opportunities for themselves while operating on a freelance level.
           </p>
         </div>
+        <div class="thirds">
+          <div class="circleimage imgthree"></div>
+          <p>Copy editors benefit from the Jott.ly marketplace, as they are able to create more business opportunities for themselves while operating on a freelance level.
+          </p>
+        </div>
       </div>
     </div>
       <div class="features">
         <!--Why isn't the padding I am adding to the top of h4 applying correctly to lower this on the page>-->
-        <h4>Features of Jott.ly's Platform</h4>
+        <h2>Features of Jott.ly's Platform</h2>
+        <div class="eight">
         <p>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.</p>
         <p>Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.</p>
         <p>Small businesses may also be interested in purchasing a multi-seat license through Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</p>
+        </div>
     </div>
   <footer>
   
