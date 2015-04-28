@@ -2,37 +2,28 @@
 <html>
   <head>
     <title>Jott.ly</title>
-    <!-- as we discussed in our last call, you need the eric meyer reset to control the way the browser renders your page -->
+    
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- first adjustment, putting the css in its own file -->
-    <!-- this is also how you will call skeleton into your project -->
+    <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
 
   </head>
+
   <body>
     <header>
-       <div class="fade">
+      <div class="fade">
         <div id="rectangle">
-
-<!--                 <input class="button-primary" type="submit" value="Submit">
- -->
           <button class="button signup" href="#">Register</button>
           <div class="logo">
           </div>
         </div>
         <ul>
-
-
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Search</a></li>
         </ul>
-          
-          <!-- I wanted to see if we can discuss this question more for explanation.Can I use the font I added to photoshop in the code? -->
-          <!-- This depends on whether the font is available through typekit or not. -->
-          <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
 
         <h1>Unlock Your Collaboration Platform</h1>
 
@@ -40,7 +31,6 @@
           <input type="email" placeholder="Your email"> 
           <button class="submit" type="submit">Submit</button>
         </form>
-
       </div>
     </header>
       
@@ -50,38 +40,6 @@
       you would write css to target the p tag. 
       so .left > p {text-align: center};
       should take care of this -->
-
-<div class="container">
-
-  <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="eight offset-by-two column">
-      <form>
-        <div class="row">
-          <div class="six columns">
-            <label for="exampleEmailInput">Your email</label>
-            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-          </div>
-          <div class="six columns">
-            <label for="exampleRecipientInput">Reason for contacting</label>
-            <select class="u-full-width" id="exampleRecipientInput">
-              <option value="Option 1">Questions</option>
-              <option value="Option 2">Admiration</option>
-              <option value="Option 3">Can I get your number?</option>
-            </select>
-          </div>
-        </div>
-        <label for="exampleMessage">Message</label>
-        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-        <label class="example-send-yourself-copy">
-          <input type="checkbox">
-          <span class="label-body">Send a copy to yourself</span>
-        </label>
-        <input class="button-primary" type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
 
     <section class="who">
       <div class="left">
@@ -102,11 +60,6 @@
         <div class="thirds">
           <div class="circleimage imgtwo"></div>
           <p>The on-demand marketplace benefits both sides as writers and copy editors are able to output not just more work, but higher quality work with their time.</p>
-        </div>
-        <div class="thirds">
-          <div class="circleimage imgthree"></div>
-          <p>Copy editors benefit from the Jott.ly marketplace, as they are able to create more business opportunities for themselves while operating on a freelance level.
-          </p>
         </div>
         <div class="thirds">
           <div class="circleimage imgthree"></div>
