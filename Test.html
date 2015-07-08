@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jott.ly</title>
+    <!-- as we discussed in our last call, you need the eric meyer reset to control the way the browser renders your page -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- first adjustment, putting the css in its own file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- this is also how you will call skeleton into your project -->
+
+  </head>
+  <body>
+    <header>
+      <!--I was wondering if I need to add the faded look to the photo prior to adding it so that I can make my font black instead of white? -->
+      <!-- All possible with the addition of another div to provide the faded look -->
+      <div class="fade">
+        <!--I need help on how to add the Jott.ly logo file to the upper left corner -->
+        <div id="rectangle">
+          <!-- based on how the site is currently constructed, you logo would reside in its own div within this rectangle div -->
+          
+          <!--I also wanted to ask how to create a button for my register button in upper right hand corner? -->
+          <!-- an button link with a class applied will get you  -->
+          <button class="signup" href="#">Register</button>
+
+          <div class="logo">
+            <!-- <img src="http://www.dalandcorp.com/Pizza%20Hut%20Roof%20400x300.gif" alt="logo"> -->
+          </div>
+
+          
+
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Search</a></li>
+        </ul>
+          <!--I was wondering if I need to add the faded look to the photo prior to adding it so that I can make my font black instead of white? -->
+                
+          <!-- Can I use the font I added to photoshop in the code? -->
+          <!-- This depends on whether the font is available through typekit or not. -->
+          <!-- http://help.typekit.com/customer/portal/articles/6780-adding-fonts-to-your-site -->
+
+
+        <h1>Unlock Your Collaboration Platform</h1>
+        <input type="email" placeholder="Your email"> 
+        <input type="submit">
+      </div>
+    </header>
+      
+      <!--I would like to center the wording in the who section to be in the middle of the white space and also add the image from my mockup to float to the right of it I don't want to keep adding formatting in the wrong places though because I know you mentioned I had the set up at top sort of off -->
+
+      <!-- You need a couple of distinct divs to accomplish this task. one to handle the type and one to handle the image. Additionally, you will likely want to wrap these divs within their own div or a section div. -->
+    
+    <div class="who">
+      <div class="left">
+        <p>Who is Using Jott.ly?</p>
+        <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
+      </div>
+      <div class="right">
+      </div>
+    </div>
+
+      <!--Here I was trying to figure out how to center the title of this section and add three seperate sections of floating text. Not if adding a div class named center worked or was the right idea -->
+
+      <!-- each of these divs will require its own measurement to allow them to sit side by side. skeleton will help out greatly here -->
+
+    <div class="benefits">
+      <div class="circleone">
+        <p>Benefits of Using Jott.ly </p>
+        <p>Writers and copyeditors are leveraging Jott.ly as their collaboration platform to findnew opportunities while still ensuring the ability to produce high-quality work.</p>
+      </div>
+    </div>
+
+      <!--I can't get the header for this section to center or the content to move down to the white section for it. I did change my paragraph tags in the three div sections so maybe that's related to it. -->
+
+      <!-- This is specific to the fact that you assigned heights to each of your divs, even when their content didn't require it. -->
+
+      <div class="features">
+        <div class="specifics">
+        <p>Features of Jott.ly's Platform</p>
+        <p>Writers have access to free unlimited hosting on Jott.ly’s platform. Writers are able to import their work from various resources such as text editors and Microsoft Word and have access to their work on any device that supports a browser. This means as a writer, you can work on your material at anytime from almost anywhere. Removing these limitations makes producing work and collaboration a lot easier.</p>
+        <p>Jott.ly provides revision history as it saves each time a change is made to your work.Split-screen views take this feature a step further and help to facilitate the collaboration between writers and copy editors.</p>
+        <p>Small businesses may also be interested in purchasing a multi-seat license through Jott.ly in order to build their own team and find an editing solution for their operation at a fraction of the price it would cost to do on their own.</p>
+      </div>
+    </div>
+  <footer>
+    <!--What's the best way to split the copyright to the other side of the footer nav bar? Well, and actually in my mock-up the copyright is the right and the others are to the left. I think once I know how to polish the button and call-out on the top that I can apply the same to the bottom. -->
+
+    <!-- simply adding class that will pull that content to the left  -->
+    
+
+    <ul>
+       <li class="pull-left">Copyright</li>
+       <li>Home</li>
+       <li>About</li>
+       <li>Contact</li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

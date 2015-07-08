@@ -1,0 +1,233 @@
+/* This gets rid of the outline that forms 
+around elements when they are clicked on */
+
+*:focus {outline: none;}
+
+header {
+      background: url("../desk photo.jpg");
+      background-repeat: no-repeat;
+
+      /* We needed to add the following attributes 
+      to help the image show up correctly */
+      background-size: cover;
+      background-position: 0 -100px;
+      color: black;
+      height: 500px;
+      text-align: center;
+      width: 100%;
+  }
+
+  .fade {
+  	background-color: rgba(255,255,255,.15);
+  	height: 500px;
+  }
+
+  #rectangle {
+    height: 80px;
+    width: 100%;
+    background: #D78D56;
+    float: left;
+  }
+
+  .signup {
+  	margin: 30px 20px 0 0;
+/*  	padding: 15px;
+*/  	float: right;
+  	display: inline;
+    background:#474747;
+    color: white;
+    font-family: helvetica;
+  }
+
+  body{
+    font-family: helvetica;
+    max-width: 100%;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+
+/* This is the CSS cleanup 
+for the former input styles */
+
+  .contact_form input {
+    width: 50%;
+    padding:10px;
+  }
+
+  .contact_form button {
+    background-color: #474747;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 10%;
+  }
+
+  .contact_form button:hover {
+    background-color: #333333;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    padding-top:40px;
+    padding-bottom: 10px
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+  }
+  /* Reformated the ul/li construction 
+  so that margin is used to set the height of the navbar */
+
+  ul {
+    background-color: #474747;
+    text-align: right;
+    padding-right:5px;  
+  }
+  li {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .logo {
+  	width: 200px;
+  	height: 70px;
+	/* background-color: green; */  	
+	background-image: url(../img/Logo_test2.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+/*  	background-position: 0 -40px;
+*/  	margin: 15px;
+  }
+
+  div {
+background-size: cover;
+}
+
+.pull-left {
+	float: left;
+}
+
+p {
+  padding: 10px;
+  line-height: 28px;
+}
+
+.who {
+	height: 400px;	
+	background-color:#ffffff;
+	width: 100%;
+	color: #474747;
+  display: inline-block;
+	padding: 50px 0;
+}
+
+.benefits, .features {
+  background-color:#e1e1e1;
+  width: 100%;
+  float: left;
+  color:#474747;
+}
+
+.eight {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.benefits h2, .features h2 {
+  color: #000;
+  font-size: 2em;
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.circleimage {
+  background-color: green;
+  border-radius: 100px;
+  height: 160px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.imgone {
+  background-image: url("../img/some-typing.jpg");
+  background-position: -2px 0px;
+  background-repeat: no-repeat;
+}
+
+.imgtwo {
+  background-image: url("../img/Computer-image.jpg");
+  background-position: 1px 3px;
+  background-repeat: no-repeat;
+}
+
+.imgthree {
+  background-image: url("../img/group-shot-of-writers.jpg");
+  background-position: 1px 3px;
+  background-repeat: no-repeat;
+}
+
+.thirds {
+  background-color: #e1e1e1;
+  float: left;
+  margin: 20px 1% 40px 1%;
+  width: 31%;
+}
+
+.features {
+  background-color: #ffffff;
+}
+
+.specifics {
+  padding: 20px;
+}
+
+.left {
+  width: 45%;
+  margin-left: 50px;
+  float: left;
+  padding: 30px 0px 30px 0px;
+}
+
+.right {
+	width: 45%;
+ 	margin-right: 5%;
+ 	float: right;
+ 	height: 303px;
+ 	background-color: white;
+  background-image: url(../img/Who_Section_Image_copy.png);
+  border:2px solid #000000;
+  background-size: 100%;
+
+  footer {
+    display: inline;
+    width: 100%;
+    color: white;
+    background: #474747;
+  }
+  background-repeat: no-repeat;
+}
+
+
+  color: #474747;
+}
